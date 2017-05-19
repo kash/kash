@@ -2,8 +2,8 @@
 
 <html>
 <head>
-    <link rel="stylesheet" href="/styles/reset.css" type="text/css">
-    <link rel="stylesheet" href="/styles/index.css" type="text/css">
+    <link rel="stylesheet" href="styles/reset.css" type="text/css">
+    <link rel="stylesheet" href="styles/index.scss" type="text/css">
 
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <meta charset="UTF-8"/>
@@ -21,38 +21,382 @@
     <meta itemprop="url" content="http://kash.cm/">
     <meta itemprop="name" content="Kash Goudarzi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500,900,700,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/index.css">
     <title>Kash Goudarzi</title>
 </head>
 
 <body>
-    <div class="main-wrapper">
-        <div class="info">
-            <div class="section">
-                <h1 style="color: #46DCAD">Hey.</h1>
-                <h1>I'm Kash Goudarzi.</h1>
-            </div>
-            <div class="section websites">
-                <h3>Websites:</h3>
-                <p><a target="_blank" href="http://puretasks.com">puretasks.com</a></p>
-                <p><a target="_blank" href="http://blueout.co">blueout.co</a></p>
-                <p><a target="_blank" href="http://wesaturate.com">wesaturate.com</a></p>
-            </div>
-            <div class="section">
-                <h3>Photography:</h3>
-                <p><a target="_blank" href="http://unsplash.com/kash">unsplash.com/kash</a></p>
-                <p><a target="_blank" href="http://wesaturate.com/kash">wesaturate.com/kash</a></p>
-                <p><a target="_blank" href="http://instagram.com/kashgoudarzi">instagram.com/kashgoudarzi</a></p>
-            </div>
-            <div class="section">
-                <p><a style="color: #444" href="mailto:me@kash.cm">me@kash.cm</a></p>
-            </div>
+<div id="app">
+    <button class="night-mode"><img src="images/moon.svg" alt=""></button>
+    <div class="top-display">
+        <div>
+            <h1>Hey. I'm Kash Goudarzi.</h1>
+            <h2>I'm a front-end web developer.</h2>
         </div>
     </div>
-</body>
+    <main>
+        <div class="experience-wrapper wrapper">
+            <div class="header header-1">
+                <h1>
+                    <span class="header-h">H</span>
+                    <span class="header-num">1</span> Experience
+                </h1>
+            </div>
+            <p>When I'm not working, I like to haha jk im always working</p>
+            <div class="experiences">
+                <div class="experience">
+                    <div class="experience-logo">
+                        <img src="images/wesaturate-logo.png" alt="Wesaturate Logo">
+                    </div>
+                    <div class="experience-text">
+                        <div class="title-info">
+                            <p class="exp-bold">Wesaturate</p>
+                            <p class="exp-italic">Co-Founder and CEO</p>
+                            <p class="exp-time">Nov. 2016 - Present</p>
+                        </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script type="text/javascript" src="/scripts/library.js"></script>
+                        <p>
+                            Wesaturate is a platform where users can view, share, and
+                            download free RAW and JPG photos. We are focused on creating a
+                            welcoming community where photographers can share their photos
+                            and get in touch with one another.
+                        </p>
+                        <p class="exp-link">
+                            <a target="_blank" href="https://wesaturate.com">wesaturate.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="experience-logo">
+                        <img src="images/haiku-logo.png" alt="Haiku Deck Logo">
+                    </div>
+                    <div class="experience-text">
+                        <div class="title-info">
+                            <p class="exp-bold">Haiku Deck</p>
+                            <p class="exp-italic">Software Engineer Intern</p>
+                            <p class="exp-time">June 2017 - Present</p>
+                        </div>
+
+                        <p>
+                            Haiku Deck makes it simple and fun to create flawlessly
+                            beautiful presentations. Headquartered in Seattle’s Fremont
+                            neighborhood, Haiku Deck is a privately held company with the
+                            backing of prominent investors, including Madrona Venture
+                            Group, Founder’s Co-op, and Techstars. The Seattle-based
+                            startup was founded by Adam Tratt and Kevin Leneway.
+                        </p>
+                        <br>
+                        <p>My responsibilities include:</p>
+                        <ul>
+                            <li>Working with react</li>
+                            <li>Working with redux</li>
+                        </ul>
+                        <p class="exp-link">
+                            <a target="_blank" href="https://haikudeck.com">haikudeck.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="experience-logo">
+                        <img src="images/apple-logo.png" alt="Apple Logo">
+                    </div>
+                    <div class="experience-text">
+                        <div class="title-info">
+                            <p class="exp-bold">Apple</p>
+                            <p class="exp-italic">Technical Specialist</p>
+                            <p class="exp-time">Oct. 2015 - June 2017</p>
+                        </div>
+
+                        <p>
+                            Apple revolutionized personal technology with the introduction
+                            of the Macintosh in 1984. Today, Apple leads the world in
+                            innovation with iPhone, iPad, the Mac and Apple Watch. Apple’s
+                            three software platforms — iOS, OS X and watchOS — provide
+                            seamless experiences across all Apple devices and empower
+                            people with breakthrough services including the App Store,
+                            Apple Music, Apple Pay and iCloud.
+                        </p>
+                        <br>
+                        <ul>
+                            <li>Trouble shot issues on iPhones and iPads</li>
+                            <li>Checked-in devices that need repair</li>
+                            <li>Replaced devices with hardware issues</li>
+                            <li>Presented various options to customer that will resolve
+                                the issue
+                            </li>
+                            <li>Checked-in customers with a Genius Bar appointment</li>
+                            <li>Created appointments for customers</li>
+                        </ul>
+                        <p class="exp-link">
+                            <a target="_blank" href="https://apple.com">apple.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="experience-logo">
+                        <img src="images/ymca-logo.png" alt="YMCA Logo">
+                    </div>
+                    <div class="experience-text">
+                        <div class="title-info">
+                            <p class="exp-bold">YMCA</p>
+                            <p class="exp-italic">Member Services Representative</p>
+                            <p class="exp-time">Dec. 2014 - Oct. 2015</p>
+                        </div>
+
+                        <p>
+                            The YMCA is the nation’s leading nonprofit committed to
+                            strengthening community through youth development, healthy
+                            living and social responsibility. Our contributions are
+                            both far-reaching and intimate—from influencing our nation’s
+                            culture during times of profound social change to the
+                            individual support we provide an adult learning to read.
+                        </p>
+                        <br>
+                        <ul>
+                            <li>Welcomed members into the facility and ensured maximum
+                                hospitality for our members.
+                            </li>
+                            <li>Sold membership, made changes to member's accounts, and
+                                sold merchandise.
+                            </li>
+                            <li>Informally trained new staff and ensured that customer
+                                service, member experience, and overall team knowledgeably
+                                exceeded expectations.
+                            </li>
+                            <li>Developed a check-in web application specifically for the
+                                Mukilteo Family YMCA that reduced member check-in time by
+                                500%.
+                            </li>
+                        </ul>
+                        <p class="exp-link">
+                            <a target="_blank" href="www.ymca.com">ymca.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="skills-wrapper wrapper">
+            <div class="header header-1">
+                <h1>
+                    <span class="header-h">H</span>
+                    <span class="header-num">1</span> Skills
+                </h1>
+            </div>
+            <p>Lorem</p>
+            <div class="skills-row">
+                <div class="skill">
+                    <div class="header header-3">
+                        <h3 class="mock-html">
+                            <span class="header-h">H</span>
+                            <span class="header-num">3</span> Front-end
+                        </h3>
+                    </div>
+                    <div class="skill-list">
+                        HTML, CSS, JavaScript, Bootstrap, Sass, Less, jQuery, ES6, React,
+                        Redux, Jest, ChartJS
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="header header-3">
+                        <h3>
+                            <span class="header-h">H</span>
+                            <span class="header-num">3</span> Back-end
+                        </h3>
+                    </div>
+                    <div class="skill-list">
+                        PHP, Node.js
+                    </div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <div class="skill">
+                    <div class="header header-3">
+                        <h3>
+                            <span class="header-h">H</span>
+                            <span class="header-num">3</span> Design
+                        </h3>
+                    </div>
+                    <div class="skill-list">
+                        Sketch 3, Photoshop, Lightroom
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="header header-3">
+                        <h3>
+                            <span class="header-h">H</span>
+                            <span class="header-num">3</span> Other
+                        </h3>
+                    </div>
+                    <div class="skill-list">
+                        Java, SQL, Git, AWS, Heroku, Google Cloud Platform, Sentry, Agile,
+                        Test Driver Development, Continuous Integration
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="education-wrapper wrapper">
+            <div class="header header-1">
+                <h1>
+                    <span class="header-h">H</span>
+                    <span class="header-num">1</span> Education
+                </h1>
+            </div>
+            <div class="experiences">
+                <div class="experience">
+                    <div class="experience-logo">
+                        <img src="images/uw-logo.png" alt="YMCA Logo">
+                    </div>
+                    <div class="experience-text">
+                        <div class="title-info">
+                            <p class="exp-bold">University of Washington</p>
+                            <p class="exp-italic">Computer Science</p>
+                            <p class="exp-time">Sept. 2015 - Present</p>
+                        </div>
+                        <p class="exp-link">
+                            <a target="_blank" href="https://uw.edu">uw.edu</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="experience-logo">
+                        <img src="images/edmonds-logo.png" alt="YMCA Logo">
+                    </div>
+                    <div class="experience-text">
+                        <div class="title-info">
+                            <p class="exp-bold">Edmonds Community College</p>
+                            <p class="exp-italic">Running Start</p>
+                            <p class="exp-time">Sept. 2013 - June. 2015</p>
+                        </div>
+                        <p class="exp-link">
+                            <a target="_blank" href="https://edcc.edu">edcc.edu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="photography-wrapper wrapper">
+            <div class="header header-1">
+                <h1>
+                    <span class="header-h">H</span>
+                    <span class="header-num">1</span> Photography
+                </h1>
+            </div>
+            <div class="photography">
+                <div class="photo-img-container">
+                    <img src="images/photo-0.jpg" alt="">
+                </div>
+                <div class="photography-button-container">
+                    <button class="photography-selected">
+                        <div></div>
+                    </button>
+                    <button>
+                        <div></div>
+                    </button>
+                    <button>
+                        <div></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="upto-wrapper wrapper">
+            <div class="header header-1">
+                <h1>
+                    <span class="header-h">H</span>
+                    <span class="header-num">1</span> What I'm Up To
+                </h1>
+            </div>
+            <p>These are just a few things that I'm up to. This includes the book that I'm
+                currently reading, my newest blog post, and some other things.</p>
+            <div class="upto">
+                <div class="upto-row">
+                    <div class="upto-book">
+                        <div class="header header-3">
+                            <h3>
+                                <span class="header-h">H</span>
+                                <span class="header-num">3</span> Current Book
+                            </h3>
+                        </div>
+                        <a class="book">
+                            <img src="https://goo.gl/bhsU4K" alt="When Breath Becomes Air">
+                            <h2>When Breath Becomes Air</h2>
+                            <h3>Paul Kalanithi</h3>
+                        </a>
+                    </div>
+                    <div class="upto-blog">
+                        <div class="header header-3">
+                            <h3>
+                                <span class="header-h">H</span>
+                                <span class="header-num">3</span> Newest Blog Post
+                            </h3>
+                        </div>
+                        <a class="blog">
+                            <img src="https://goo.gl/IINO9Q" alt="Blog Post">
+                            <h2>4 Things I Learned From Launching My First Site</h2>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="upto-row">
+                    <div class="upto-app">
+                        <div class="header header-3">
+                            <h3>
+                                <span class="header-h">H</span>
+                                <span class="header-num">3</span> New Favorite App
+                            </h3>
+                        </div>
+                        <a class="app">
+                            <img src="https://goo.gl/5ZxNN3" alt="Cool App">
+                            <p>This is a really cool app</p>
+                        </a>
+                    </div>
+                    <div class="upto-charity">
+                        <div class="header header-3">
+                            <h3>
+                                <span class="header-h">H</span>
+                                <span class="header-num">3</span> Organization I'm Like
+                            </h3>
+                        </div>
+                        <a class="org">
+                            <img src="https://goo.gl/Xkta8F" alt="Organization">
+                            <p>Donate to them. Keep the people powerful.</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-wrapper wrapper">
+            <div class="header header-1">
+                <h1>
+                    <span class="header-h">H</span>
+                    <span class="header-num">1</span> Contact
+                </h1>
+            </div>
+            <div class="contact">
+                <p>Want to get in touch with me? Feel free to email me:
+                    <a href="mailto:me@kash.cm">me@kash.cm</a></p>
+                <p>You can find me on different social media platforms here:</p>
+                <div class="social">
+                    <a target="_blank" href="https://wesaturate.com/kash"><img src="images/wesaturate-logo.png" alt="Wesaturate Logo"></a>
+                    <a target="_blank" href="https://instagram.com/kashgoudarzi"><img src="images/contact-instagram.svg" alt="Instagram Logo"></a>
+                    <a target="_blank" href="https://linkedin.com/in/kashg"><img src="images/contact-linkedin.svg" alt="Linkedin Logo"></a>
+                    <a target="_blank" href="https://twitter.com/kashgoudarzi"><img src="images/contact-twitter.svg" alt="Twitter Logo"></a>
+                    <a target="_blank" href="https://medium.com/@kashgoudarzi"><img src="images/contact-medium.svg" alt="Medium Logo"></a>
+                    <a target="_blank" href="https://github.com/kash"><img src="images/contact-github.svg" alt="Github Logo"></a>
+                    <a target="_blank" href="https://unsplash.com/kash"><img src="images/contact-unsplash.png" alt="Unsplash Logo"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+<script type="text/javascript" src="scripts/index.js"></script>
 
 </html>
 

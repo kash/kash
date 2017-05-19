@@ -1,0 +1,337 @@
+.top-display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #0091EA;
+    position: relative;
+    h1, h2 {
+        color: white;
+        font-size: 5em;
+        text-align: left;
+        font-weight: 900;
+    }
+    h2 {
+        font-size: 50px;
+        opacity: 0.7;
+        margin-top: 20px;
+    }
+
+    div {
+        width: 95%;
+        max-width: 900px;
+    }
+}
+
+main {
+    width: 95%;
+    max-width: 900px;
+    display: table;
+    margin: auto;
+    padding-bottom: 200px;
+    hr {
+        border: 0;
+        height: 0;
+        width: 100%;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    ul {
+        margin-top: 10px;
+        list-style: disc;
+        margin-left: 20px;
+    }
+}
+
+$h1Size: 40px;
+$h2Size: 35px;
+$h3Size: 30px;
+$h4Size: 25px;
+$h5Size: 20px;
+
+.wrapper {
+    padding: 70px 0;
+}
+
+.header {
+    h1, h2, h3, h4, h5 {
+        font-family: "Avenir Next";
+        font-weight: bold;
+        font-size: $h1Size;
+        color: #61b3c4;
+    }
+
+    h2 {
+        font-size: $h2Size;
+    }
+    h3 {
+        font-size: $h3Size;
+    }
+    h4 {
+        font-size: $h4Size;
+    }
+    h5 {
+        font-size: $h5Size;
+    }
+    .header-h, .header-num {
+        color: #c6bf87;
+        font-size: 0.7em;
+    }
+    .header-num {
+        margin-left: -0.5em;
+        font-size: 0.4em;
+    }
+}
+
+.header-1 {
+    font-size: 30px;
+    color: green;
+    width: 100%;
+}
+
+.wrapper p, main li, .skill-list {
+    font-size: 19px;
+    font-weight: 300;
+    font-family: Helvetica;
+    line-height: 1.3em;
+    color: #606060;
+    margin: 15px 0;
+}
+
+main li {
+    margin: 5px 0;
+}
+
+.photography {
+    display: table;
+    margin: 50px auto 0;
+    img {
+        max-width: 100%;
+        width: auto;
+        max-height: 500px;
+        border-radius: 4px;
+    }
+    button {
+        padding: 10px;
+        opacity: 0.3;
+    }
+    button div {
+        width: 10px;
+        background-color: #444;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .photography-selected {
+        opacity: 1;
+    }
+    .photo-img-container{
+        min-height: 500px;
+    }
+    button:not(:first-of-type) {
+        margin-left: 0px;
+    }
+    .photography-button-container {
+        display: table;
+        margin: 15px auto 0;
+    }
+}
+
+.experiences {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    border-radius: 3px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    .experience-logo {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 40px;
+        height: auto;
+    }
+    .experience-text {
+        width: 80%;
+    }
+    .exp-bold {
+        font-weight: 700 !important;
+    }
+    .exp-time {
+        margin-top: -3px;
+        font-size: 0.99em;
+    }
+    .exp-italic {
+        font-size: 0.99em;
+        margin-top: -3px;
+        font-style: italic;
+    }
+    .exp-link a {
+        color: #2196F3;
+    }
+    .title-info {
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 800px) {
+    .skills-row {
+        flex-direction: column;
+        margin: 0 !important;
+        width: 100%;
+    }
+    .skill {
+        margin-top: 30px;
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 620px) {
+    .experience {
+        flex-direction: column;
+        .experience-logo {
+            margin: 50px 0 40px;
+        }
+        .experience-text {
+            margin-bottom: 20px;
+        }
+        padding: 10px 2px;
+    }
+}
+
+.contact-wrapper {
+    a {
+        color: #2196F3;
+    }
+
+    .social {
+        display: flex;
+        margin-top: 30px;
+        opacity: 0.9;
+        flex-direction: row;
+        img {
+            width: 30px;
+            height: auto;
+        }
+        a:not(:first-of-type) {
+            margin-left: 20px;
+        }
+    }
+}
+
+.skills-row, .upto-row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    > div {
+        width: 45%;
+
+        .skill-list {
+            margin-top: 15px;
+            border-radius: 3px;
+            background-color: #13181b;
+            padding: 10px 25px;
+            box-sizing: border-box;
+            color: #a9b0b4;
+            min-height: 100px;
+            font-size: 18px;
+        }
+    }
+}
+
+.night-mode {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    opacity: 0.2;
+    img {
+        transform: rotate(240deg);
+        width: 50px;
+    }
+}
+
+.upto {
+    .upto-row:first-of-type {
+        margin-bottom: 70px;
+    }
+    .upto-row > div:first-of-type {
+        width: 52%;
+    }
+    .upto-row > div:last-of-type {
+        width: 40%;
+    }
+    .upto-blog img {
+        width: 100%;
+    }
+    .upto-book img {
+        max-width: 200px;
+        width: 100%;
+    }
+    .org img {
+        width: 100%;
+    }
+    .app img {
+        width: 100%;
+        max-width: 150px;
+        border-radius: 20%;
+    }
+    img {
+        border-radius: 3px;
+        margin: 30px 0 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    a h2 {
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    a h3 {
+        margin-top: 10px;
+        font-weight: 300;
+
+    }
+}
+
+.night {
+    p, li, .upto a h1, .upto a h2, .upto a h3 {
+        color: white !important;
+    }
+    .experience img, .social img, .night-mode img {
+        filter: brightness(0) invert(1);
+    }
+    .night-mode {
+        opacity: 0.8;
+    }
+    .experience {
+        background-color: #13181b;
+        box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .top-display {
+        background-color: #111d22;
+    }
+    background-color: #232e33 !important;
+
+
+    .photography {
+        button div {
+            background-color: white;
+        }
+    }
+}

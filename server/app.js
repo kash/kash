@@ -31,7 +31,7 @@ app.get('*', function (req, res) {
  * Setting port to default port if one is set, if not (local), set port to 3000 and start
  * server.
  */
-let port = process.env.port || 3000;
+let port = process.env.PORT || 3000;
 app.listen(port, function () {
 	console.log("Listening on port " + port);
 });

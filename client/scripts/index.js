@@ -22,7 +22,7 @@ Array.prototype.forEach.call(buttons, function(el){
 	console.log('went');
 	el.addEventListener('click', function(){
 		var index = Array.prototype.indexOf.call(buttons, el);
-		document.querySelector(".photography img").src = "images/photo-" + index + ".jpg";
+		document.querySelector(".photography img").src = "/client/images/photo-" + index + ".jpg";
 		document.querySelector('.photography-selected').classList.remove('photography-selected');
 		el.classList.add('photography-selected');
 	});

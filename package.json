@@ -1,0 +1,45 @@
+{
+    "name": "kash",
+    "version": "1.0.0",
+    "description": "My personal site",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server/app.js",
+        "babel": "babel"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kash/kash.git"
+    },
+    "author": "Kash Goudarzi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kash/kash/issues"
+    },
+    "homepage": "https://github.com/kash/kash#readme",
+    "dependencies": {
+        "axios": "^0.16.1",
+        "babel-cli": "^6.24.1",
+        "babel-core": "^6.22.1",
+        "babel-loader": "^6.2.10",
+        "babel-plugin-root-import": "^5.1.0",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "babel-plugin-transform-object-rest-spread": "^6.23.0",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-preset-node6": "^11.0.0",
+        "babel-preset-react": "^6.22.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "babel-register": "^6.24.1",
+        "body-parser": "^1.17.1",
+        "chai": "^3.5.0",
+        "chai-enzyme": "^0.7.0",
+        "chai-http": "^3.0.0",
+        "cookie-parser": "^1.4.3",
+        "es6-promise": "^4.0.5",
+        "express": "^4.15.2",
+        "extract-text-webpack-plugin": "^2.1.0",
+        "formidable": "^1.1.1",
+        "history": "^1.17.0"
+    }
+}

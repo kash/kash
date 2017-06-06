@@ -2,35 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a85ce4-a39a-4f26-a44a-5481d48e920c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/AvenirNextLTPro-Bold.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/AvenirNextLTPro-It.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/AvenirNextLTPro-Regular.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/apple-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blueout-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contact-unsplash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/edmonds-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/haiku-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo-0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/uw-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/uw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/wesaturate-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ymca-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contact-github.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contact-instagram.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contact-linkedin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contact-medium.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contact-twitter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/moon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/index.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/library.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/fonts/AvenirNextLTPro-Bold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/fonts/AvenirNextLTPro-It.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/fonts/AvenirNextLTPro-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/apple-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/blueout-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/contact-unsplash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/edmonds-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/haiku-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/photo-0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/photo-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/photo-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/uw-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/uw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/wesaturate-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/ymca-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/contact-github.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/contact-instagram.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/contact-linkedin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/contact-medium.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/contact-twitter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/images/moon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/scripts/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/styles/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/styles/index.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/styles/index.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/styles/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/upto.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/styles/index.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/AvenirNextLTPro-Bold.otf" afterPath="$PROJECT_DIR$/client/fonts/AvenirNextLTPro-Bold.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/AvenirNextLTPro-It.otf" afterPath="$PROJECT_DIR$/client/fonts/AvenirNextLTPro-It.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/AvenirNextLTPro-Regular.otf" afterPath="$PROJECT_DIR$/client/fonts/AvenirNextLTPro-Regular.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/apple-logo.png" afterPath="$PROJECT_DIR$/client/images/apple-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/blueout-logo.png" afterPath="$PROJECT_DIR$/client/images/blueout-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/contact-github.svg" afterPath="$PROJECT_DIR$/client/images/contact-github.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/contact-instagram.svg" afterPath="$PROJECT_DIR$/client/images/contact-instagram.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/contact-linkedin.svg" afterPath="$PROJECT_DIR$/client/images/contact-linkedin.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/contact-medium.svg" afterPath="$PROJECT_DIR$/client/images/contact-medium.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/contact-twitter.svg" afterPath="$PROJECT_DIR$/client/images/contact-twitter.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/contact-unsplash.png" afterPath="$PROJECT_DIR$/client/images/contact-unsplash.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/edmonds-logo.png" afterPath="$PROJECT_DIR$/client/images/edmonds-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/haiku-logo.png" afterPath="$PROJECT_DIR$/client/images/haiku-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/moon.svg" afterPath="$PROJECT_DIR$/client/images/moon.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/photo-0.jpg" afterPath="$PROJECT_DIR$/client/images/photo-0.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/photo-1.jpg" afterPath="$PROJECT_DIR$/client/images/photo-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/photo-2.jpg" afterPath="$PROJECT_DIR$/client/images/photo-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/uw-logo.png" afterPath="$PROJECT_DIR$/client/images/uw-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/uw.png" afterPath="$PROJECT_DIR$/client/images/uw.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/wesaturate-logo.png" afterPath="$PROJECT_DIR$/client/images/wesaturate-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/ymca-logo.png" afterPath="$PROJECT_DIR$/client/images/ymca-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/index.js" afterPath="$PROJECT_DIR$/client/scripts/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/index.css.map" afterPath="$PROJECT_DIR$/client/styles/index.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/index.scss" afterPath="$PROJECT_DIR$/client/styles/index.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/reset.css" afterPath="$PROJECT_DIR$/client/styles/reset.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/reset.css" afterPath="$PROJECT_DIR$/styles/reset.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,172 +71,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49822274">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="577">
-                  <caret line="290" column="22" lean-forward="true" selection-start-line="290" selection-start-column="22" selection-end-line="290" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="contact-instagram.svg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/images/contact-instagram.svg">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/styles/index.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-                  <folding>
-                    <marker date="1495214858000" expanded="true" signature="2012:2037" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="2146:2212" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="2226:2505" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="2537:2629" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="2648:2686" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="2718:2737" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="2762:2798" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="2823:2871" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="2898:2970" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="2997:3020" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3047:3075" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3103:3259" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3119:3193" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3204:3257" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3286:3486" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3302:3356" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3390:3420" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3454:3484" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3506:3527" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3553:3632" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3664:3702" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3752:3778" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3803:3877" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3915:3934" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="3998:4210" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4224:4310" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4329:4380" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4412:4438" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4567:4585" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4607:4645" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4661:4679" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4695:4755" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4766:4856" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4868:4930" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4942:4985" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="4994:5037" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="5281:5302" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="5324:5460" ph="{...}" />
-                    <marker date="1495214858000" expanded="true" signature="5483:5517" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/styles/reset.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1361">
-                  <caret line="711" column="0" lean-forward="true" selection-start-line="711" selection-start-column="0" selection-end-line="711" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/styles/index.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="864">
-                  <caret line="129" column="26" lean-forward="false" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#13#448#0" expanded="false" />
-                    <element signature="e#190#295#0" expanded="false" />
-                    <element signature="e#303#383#0" expanded="false" />
-                    <element signature="e#393#446#0" expanded="false" />
-                    <element signature="e#455#839#0" expanded="false" />
-                    <element signature="e#567#742#0" expanded="false" />
-                    <element signature="e#751#837#0" expanded="false" />
-                    <element signature="e#926#950#0" expanded="false" />
-                    <element signature="e#960#1446#0" expanded="false" />
-                    <element signature="e#985#1107#0" expanded="false" />
-                    <element signature="e#1116#1151#0" expanded="false" />
-                    <element signature="e#1159#1194#0" expanded="false" />
-                    <element signature="e#1202#1237#0" expanded="false" />
-                    <element signature="e#1245#1280#0" expanded="false" />
-                    <element signature="e#1308#1365#0" expanded="false" />
-                    <element signature="e#1382#1444#0" expanded="false" />
-                    <element signature="e#1458#1517#0" expanded="false" />
-                    <element signature="e#1552#1690#0" expanded="false" />
-                    <element signature="e#1700#1722#0" expanded="false" />
-                    <element signature="e#1792#1900#0" expanded="false" />
-                    <element signature="e#2235#2268#0" expanded="false" />
-                    <element signature="e#2303#2363#0" expanded="false" />
-                    <element signature="e#2380#2452#0" expanded="false" />
-                    <element signature="e#2785#2897#0" expanded="false" />
-                    <element signature="e#2906#2956#0" expanded="false" />
-                    <element signature="e#2978#3005#0" expanded="false" />
-                    <element signature="e#3020#3064#0" expanded="false" />
-                    <element signature="e#3079#3139#0" expanded="false" />
-                    <element signature="e#3156#3244#0" expanded="false" />
-                    <element signature="e#3261#3292#0" expanded="false" />
-                    <element signature="e#3374#3561#0" expanded="false" />
-                    <element signature="e#3392#3482#0" expanded="false" />
-                    <element signature="e#3494#3559#0" expanded="false" />
-                    <element signature="e#3588#3814#0" expanded="false" />
-                    <element signature="e#3606#3812#0" expanded="false" />
-                    <element signature="e#3665#3709#0" expanded="false" />
-                    <element signature="e#3735#3779#0" expanded="false" />
-                    <element signature="e#3833#4143#0" expanded="false" />
-                    <element signature="e#3841#3872#0" expanded="false" />
-                    <element signature="e#3886#4141#0" expanded="false" />
-                    <element signature="e#4000#4062#0" expanded="false" />
-                    <element signature="e#4093#4135#0" expanded="false" />
-                    <element signature="e#4591#4759#0" expanded="false" />
-                    <element signature="e#4694#4757#0" expanded="false" />
-                    <element signature="e#4767#5503#0" expanded="false" />
-                    <element signature="e#4797#4833#0" expanded="false" />
-                    <element signature="e#4868#4895#0" expanded="false" />
-                    <element signature="e#4929#4956#0" expanded="false" />
-                    <element signature="e#4976#5004#0" expanded="false" />
-                    <element signature="e#5024#5078#0" expanded="false" />
-                    <element signature="e#5092#5120#0" expanded="false" />
-                    <element signature="e#5134#5216#0" expanded="false" />
-                    <element signature="e#5225#5337#0" expanded="false" />
-                    <element signature="e#5347#5431#0" expanded="false" />
-                    <element signature="e#5441#5501#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scripts/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -272,66 +135,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index.scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -352,6 +155,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/fonts" />
     </key>
@@ -454,12 +258,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16930000" />
+    <option name="totallyTimeSpent" value="16995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09010417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -473,6 +277,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -480,15 +285,21 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="The R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,6 +313,124 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/styles/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="346" column="5" lean-forward="false" selection-start-line="346" selection-start-column="5" selection-end-line="346" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/upto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6816">
+          <caret line="284" column="65" lean-forward="true" selection-start-line="284" selection-start-column="65" selection-end-line="284" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/images/contact-instagram.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17064">
+          <caret line="711" column="0" lean-forward="false" selection-start-line="711" selection-start-column="0" selection-end-line="711" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="129" column="26" lean-forward="false" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6960">
+          <caret line="290" column="22" lean-forward="true" selection-start-line="290" selection-start-column="22" selection-end-line="290" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/images/contact-instagram.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17064">
+          <caret line="711" column="0" lean-forward="true" selection-start-line="711" selection-start-column="0" selection-end-line="711" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="129" column="26" lean-forward="false" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2640">
@@ -510,7 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/index.js">
+    <entry file="file://$PROJECT_DIR$/client/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -518,7 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/reset.css">
+    <entry file="file://$PROJECT_DIR$/client/styles/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15696">
           <caret line="654" column="17" lean-forward="false" selection-start-line="654" selection-start-column="17" selection-end-line="654" selection-end-column="17" />
@@ -526,67 +455,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/index.scss">
+    <entry file="file://$PROJECT_DIR$/client/styles/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="e#13#448#0" expanded="false" />
-            <element signature="e#190#295#0" expanded="false" />
-            <element signature="e#303#383#0" expanded="false" />
-            <element signature="e#393#446#0" expanded="false" />
-            <element signature="e#455#839#0" expanded="false" />
-            <element signature="e#567#742#0" expanded="false" />
-            <element signature="e#751#837#0" expanded="false" />
-            <element signature="e#926#950#0" expanded="false" />
-            <element signature="e#960#1446#0" expanded="false" />
-            <element signature="e#985#1107#0" expanded="false" />
-            <element signature="e#1116#1151#0" expanded="false" />
-            <element signature="e#1159#1194#0" expanded="false" />
-            <element signature="e#1202#1237#0" expanded="false" />
-            <element signature="e#1245#1280#0" expanded="false" />
-            <element signature="e#1308#1365#0" expanded="false" />
-            <element signature="e#1382#1444#0" expanded="false" />
-            <element signature="e#1458#1517#0" expanded="false" />
-            <element signature="e#1552#1690#0" expanded="false" />
-            <element signature="e#1700#1722#0" expanded="false" />
-            <element signature="e#1792#1900#0" expanded="false" />
-            <element signature="e#2235#2268#0" expanded="false" />
-            <element signature="e#2303#2363#0" expanded="false" />
-            <element signature="e#2380#2452#0" expanded="false" />
-            <element signature="e#2785#2897#0" expanded="false" />
-            <element signature="e#2906#2956#0" expanded="false" />
-            <element signature="e#2978#3005#0" expanded="false" />
-            <element signature="e#3020#3064#0" expanded="false" />
-            <element signature="e#3079#3139#0" expanded="false" />
-            <element signature="e#3156#3244#0" expanded="false" />
-            <element signature="e#3261#3292#0" expanded="false" />
-            <element signature="e#3374#3561#0" expanded="false" />
-            <element signature="e#3392#3482#0" expanded="false" />
-            <element signature="e#3494#3559#0" expanded="false" />
-            <element signature="e#3588#3814#0" expanded="false" />
-            <element signature="e#3606#3812#0" expanded="false" />
-            <element signature="e#3665#3709#0" expanded="false" />
-            <element signature="e#3735#3779#0" expanded="false" />
-            <element signature="e#3833#4143#0" expanded="false" />
-            <element signature="e#3841#3872#0" expanded="false" />
-            <element signature="e#3886#4141#0" expanded="false" />
-            <element signature="e#4000#4062#0" expanded="false" />
-            <element signature="e#4093#4135#0" expanded="false" />
-            <element signature="e#4591#4759#0" expanded="false" />
-            <element signature="e#4694#4757#0" expanded="false" />
-            <element signature="e#4767#5503#0" expanded="false" />
-            <element signature="e#4797#4833#0" expanded="false" />
-            <element signature="e#4868#4895#0" expanded="false" />
-            <element signature="e#4929#4956#0" expanded="false" />
-            <element signature="e#4976#5004#0" expanded="false" />
-            <element signature="e#5024#5078#0" expanded="false" />
-            <element signature="e#5092#5120#0" expanded="false" />
-            <element signature="e#5134#5216#0" expanded="false" />
-            <element signature="e#5225#5337#0" expanded="false" />
-            <element signature="e#5347#5431#0" expanded="false" />
-            <element signature="e#5441#5501#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/index.js">
+    <entry file="file://$PROJECT_DIR$/client/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
@@ -614,11 +487,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/index.js">
+    <entry file="file://$PROJECT_DIR$/client/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/index.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/images/moon.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="73" lean-forward="true" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/images/contact-instagram.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="711" column="0" lean-forward="false" selection-start-line="711" selection-start-column="0" selection-end-line="711" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1101">
+          <caret line="346" column="5" lean-forward="false" selection-start-line="346" selection-start-column="5" selection-end-line="346" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/upto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8451">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15696">
+          <caret line="654" column="17" lean-forward="false" selection-start-line="654" selection-start-column="17" selection-end-line="654" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -652,47 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <marker date="1495214858000" expanded="true" signature="2012:2037" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="2146:2212" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="2226:2505" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="2537:2629" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="2648:2686" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="2718:2737" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="2762:2798" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="2823:2871" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="2898:2970" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="2997:3020" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3047:3075" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3103:3259" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3119:3193" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3204:3257" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3286:3486" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3302:3356" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3390:3420" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3454:3484" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3506:3527" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3553:3632" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3664:3702" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3752:3778" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3803:3877" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3915:3934" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="3998:4210" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4224:4310" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4329:4380" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4412:4438" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4567:4585" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4607:4645" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4661:4679" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4695:4755" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4766:4856" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4868:4930" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4942:4985" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="4994:5037" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="5281:5302" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="5324:5460" ph="{...}" />
-            <marker date="1495214858000" expanded="true" signature="5483:5517" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,15 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1361">
           <caret line="711" column="0" lean-forward="true" selection-start-line="711" selection-start-column="0" selection-end-line="711" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="290" column="22" lean-forward="true" selection-start-line="290" selection-start-column="22" selection-end-line="290" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,63 +702,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="129" column="26" lean-forward="false" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
-          <folding>
-            <element signature="e#13#448#0" expanded="false" />
-            <element signature="e#190#295#0" expanded="false" />
-            <element signature="e#303#383#0" expanded="false" />
-            <element signature="e#393#446#0" expanded="false" />
-            <element signature="e#455#839#0" expanded="false" />
-            <element signature="e#567#742#0" expanded="false" />
-            <element signature="e#751#837#0" expanded="false" />
-            <element signature="e#926#950#0" expanded="false" />
-            <element signature="e#960#1446#0" expanded="false" />
-            <element signature="e#985#1107#0" expanded="false" />
-            <element signature="e#1116#1151#0" expanded="false" />
-            <element signature="e#1159#1194#0" expanded="false" />
-            <element signature="e#1202#1237#0" expanded="false" />
-            <element signature="e#1245#1280#0" expanded="false" />
-            <element signature="e#1308#1365#0" expanded="false" />
-            <element signature="e#1382#1444#0" expanded="false" />
-            <element signature="e#1458#1517#0" expanded="false" />
-            <element signature="e#1552#1690#0" expanded="false" />
-            <element signature="e#1700#1722#0" expanded="false" />
-            <element signature="e#1792#1900#0" expanded="false" />
-            <element signature="e#2235#2268#0" expanded="false" />
-            <element signature="e#2303#2363#0" expanded="false" />
-            <element signature="e#2380#2452#0" expanded="false" />
-            <element signature="e#2785#2897#0" expanded="false" />
-            <element signature="e#2906#2956#0" expanded="false" />
-            <element signature="e#2978#3005#0" expanded="false" />
-            <element signature="e#3020#3064#0" expanded="false" />
-            <element signature="e#3079#3139#0" expanded="false" />
-            <element signature="e#3156#3244#0" expanded="false" />
-            <element signature="e#3261#3292#0" expanded="false" />
-            <element signature="e#3374#3561#0" expanded="false" />
-            <element signature="e#3392#3482#0" expanded="false" />
-            <element signature="e#3494#3559#0" expanded="false" />
-            <element signature="e#3588#3814#0" expanded="false" />
-            <element signature="e#3606#3812#0" expanded="false" />
-            <element signature="e#3665#3709#0" expanded="false" />
-            <element signature="e#3735#3779#0" expanded="false" />
-            <element signature="e#3833#4143#0" expanded="false" />
-            <element signature="e#3841#3872#0" expanded="false" />
-            <element signature="e#3886#4141#0" expanded="false" />
-            <element signature="e#4000#4062#0" expanded="false" />
-            <element signature="e#4093#4135#0" expanded="false" />
-            <element signature="e#4591#4759#0" expanded="false" />
-            <element signature="e#4694#4757#0" expanded="false" />
-            <element signature="e#4767#5503#0" expanded="false" />
-            <element signature="e#4797#4833#0" expanded="false" />
-            <element signature="e#4868#4895#0" expanded="false" />
-            <element signature="e#4929#4956#0" expanded="false" />
-            <element signature="e#4976#5004#0" expanded="false" />
-            <element signature="e#5024#5078#0" expanded="false" />
-            <element signature="e#5092#5120#0" expanded="false" />
-            <element signature="e#5134#5216#0" expanded="false" />
-            <element signature="e#5225#5337#0" expanded="false" />
-            <element signature="e#5347#5431#0" expanded="false" />
-            <element signature="e#5441#5501#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

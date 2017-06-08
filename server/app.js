@@ -23,8 +23,12 @@ require('./upto.js');
  * Directing all routes to index.html, hence the '*'
  */
 app.use('/client', express.static(__dirname + '/../client'));
-app.get('*', function (req, res) {
+app.get('/', function (req, res) {
 	res.sendFile(path.join(__dirname, '../', 'index.html'));
+});
+
+app.get('/apple', function (req, res) {
+	res.sendFile(path.join(__dirname, '../apple', 'index.html'));
 });
 
 /**

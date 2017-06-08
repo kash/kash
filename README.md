@@ -1,3 +1,3 @@
 # Kash
 
-This is my personal site. It's outlined like a resume.
+This is my personal site. [Check it out!](https://kashg.herokuapp.com)

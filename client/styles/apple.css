@@ -1,0 +1,35 @@
+.apple {
+  width: 95%;
+  max-width: 1000px;
+  padding: 100px 0;
+  display: flex;
+  margin: auto;
+  flex-direction: column; }
+  .apple .thank {
+    width: 100%;
+    max-width: 620px;
+    display: table;
+    margin: auto; }
+  .apple h1 {
+    font-weight: 900;
+    font-size: 50px; }
+  .apple p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300; }
+  .apple h3 {
+    opacity: 0.5;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 300; }
+  .apple img {
+    width: auto;
+    max-width: 100%;
+    max-height: 800px;
+    display: table;
+    margin: 0 auto 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=apple.css.map */

@@ -20,12 +20,8 @@ require('./upto.js');
 app.get('*', function (req, res, next) {
 	if (req.headers['x-forwarded-proto'] != 'https' && process.env.NODE_ENV === 'production') {
 		res.redirect('https://' + req.headers.host.replace(/^www\./, '') + req.url);
-	} else if (process.env.NODE_ENV === 'production'){
-		if (req.headers.host.match(/^www/) !== null ) {
-			res.redirect('https://' + req.headers.host.replace(/^www\./, '') + req.url);
-		} else {
-			next()
-		}
+	} else if (process.env.NODE_ENV === 'production' && req.headers.host.match(/^www/)){
+		res.redirect('https://' + req.headers.host.replace(/^www\./, '') + req.url);
 	}else{
 		next();
 	}

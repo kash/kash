@@ -14,16 +14,16 @@
     font-weight: 900;
     font-size: 50px; }
   .apple p {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 20px;
     font-weight: 300; }
   .apple h3 {
     opacity: 0.5;
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: center;
     margin-bottom: 60px;
     font-weight: 300; }
-  .apple img {
+  .apple > img {
     width: auto;
     max-width: 100%;
     max-height: 800px;

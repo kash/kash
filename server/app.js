@@ -17,6 +17,14 @@ global.app = app;
 
 require('./upto.js');
 
+app.get('*', function (req, res, next) {
+	if (req.headers['x-forwarded-proto'] != 'https' && process.env.NODE_ENV === 'production') {
+		res.redirect('https://' + req.hostname + req.url)
+	} else {
+		next()
+	}
+});
+
 /**
  * Serving client directory so that server has access to all JavaScript and CSS files.
  *

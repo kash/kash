@@ -19,7 +19,11 @@ require('./upto.js');
 
 app.get('*', function (req, res, next) {
 	if (req.headers['x-forwarded-proto'] != 'https' && process.env.NODE_ENV === 'production') {
-		res.redirect('https://' + req.hostname + req.url)
+		if (req.headers.host.match(/^www/)){
+			res.redirect('https://' + req.hostname + req.url)
+		}else{
+			res.redirect('https://www.' + req.hostname + req.url)
+		}
 	} else {
 		next()
 	}

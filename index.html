@@ -26,22 +26,42 @@
 </head>
 
 <body>
+<script>
+	// Everything must be scalable
+	
+	var today = new Date();
+	var birthDate = new Date(1997, 6, 29);
+	var age = today.getFullYear() - birthDate.getFullYear();
+	var m = today.getMonth() - birthDate.getMonth();
+	if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+		age--;
+	}
+	age++;
+</script>
 <div id="app">
 	<div class="center">
-		<p>Hey. I'm Kash.</p>
+		<p>Hey. I'm Kash Goudarzi.</p>
 		<br>
 		<p>I'm a software engineer based in Seattle.</p>
 		<hr>
 		<p>A little more about me:</p>
 		<ul>
 			<li>I am a React/Node developer</li>
-			<li>I go to <a href="https://uw.edu">UW</a></li>
-			<li>I'm majoring in CS</li>
+			<li>School: <a href="https://uw.edu">UW</a></li>
+			<li>Major: CS</li>
+			<li>Age:
+				<script>document.write(age)</script>
+			</li>
+			<li>Height: 6 2</li>
+			<li>Politics: <i style="opacity: 0.7">float: left;</i></li>
+			<li>Favorite color: <span class="fav-color"></span></li>
 		</ul>
 		<hr>
 		<p>By me:</p>
 		<ul>
 			<li><a target="_blank" href="https://www.wesaturate.com">Wesaturate</a> - Free photos
+			</li>
+			<li><a target="_blank" href="https://grayhats.io">Gray Hats</a> - Home page for UW club
 			</li>
 			<li><a target="_blank" href="http://defend.grayhats.io">Defend</a> - Site for an
 				upcoming hackathon
@@ -57,10 +77,10 @@
 		</ul>
 		<hr>
 		<p>Skills: <i style="opacity: 0.4">(can you find the Pokemon?)</i></p>
-		<p>javascript, node, redux, react, python, git, gulp, rest, graphql, sql, postgres, mysql,
-			grunt, webpack, d3, es6, mocha, chai, enzyme, jest, redis, regex, mongodb,
-			jade, aws s3, sass, less, css, html, charizard, jquery, php, java, express, socket.io,
-			seo, flow, markdown, typescript, objective c, swift, npm, yarn, bootstrap</p>
+		<p>javascript, node, redux, react, git, rest, sql, postgres, mysql, webpack, d3, es6,
+			stylus, mocha, chai, enzyme, redis, regex, mongodb, jade, aws s3, sass, less, css, html,
+			charizard, jquery, php, java, express, socket.io, seo, flow, markdown, typescript,
+			objective c, bootstrap, docker</p>
 		<hr>
 		<p>Please support the following things:</p>
 		<ul>
@@ -92,7 +112,9 @@
 			<li><a target="_blank" href="https://github.com/kash">github@kash</a></li>
 			<li><a target="_blank" href="https://www.wesaturate.com/kash">wesaturate@kash</a></li>
 			<li><a target="_blank" href="https://linkedin.com/in/kashg">linkedin@kashg</a></li>
-			<li><a target="_blank" href="https://instagram.com/kashgoudarzi">instagram@kashgoudarzi</a></li>
+			<li>
+				<a target="_blank" href="https://instagram.com/kashgoudarzi">instagram@kashgoudarzi</a>
+			</li>
 			<li><a target="_blank" href="https://unsplash.com/kash">unsplash@kash</a></li>
 		</ul>
 	</div>

@@ -26,18 +26,6 @@
 </head>
 
 <body>
-<script>
-	// Everything must be scalable
-	
-	var today = new Date();
-	var birthDate = new Date(1997, 6, 29);
-	var age = today.getFullYear() - birthDate.getFullYear();
-	var m = today.getMonth() - birthDate.getMonth();
-	if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-		age--;
-	}
-	age++;
-</script>
 <div id="app">
 	<div class="center">
 		<p>Hey. I'm Kash Goudarzi.</p>
@@ -49,9 +37,7 @@
 			<li>I am a React/Node developer</li>
 			<li>School: <a href="https://uw.edu">UW</a></li>
 			<li>Major: CS</li>
-			<li>Age:
-				<script>document.write(age)</script>
-			</li>
+			<li>Age: 20</li>
 			<li>Height: 6 2</li>
 			<li>Politics: <i style="opacity: 0.7">float: left;</i></li>
 			<li>Favorite color: <span class="fav-color"></span></li>
@@ -61,7 +47,7 @@
 		<ul>
 			<li><a target="_blank" href="https://www.wesaturate.com">Wesaturate</a> - Free photos
 			</li>
-			<li><a target="_blank" href="https://grayhats.io">Gray Hats</a> - Home page for UW club
+			<li><a target="_blank" href="http://grayhats.io">Gray Hats</a> - Home page for UW club
 			</li>
 			<li><a target="_blank" href="http://defend.grayhats.io">Defend</a> - Site for an
 				upcoming hackathon
@@ -77,10 +63,9 @@
 		</ul>
 		<hr>
 		<p>Skills: <i style="opacity: 0.4">(can you find the Pokemon?)</i></p>
-		<p>javascript, node, redux, react, git, rest, sql, postgres, mysql, webpack, d3, es6,
-			stylus, mocha, chai, enzyme, redis, regex, mongodb, jade, aws s3, sass, less, css, html,
-			charizard, jquery, php, java, express, socket.io, seo, flow, markdown, typescript,
-			objective c, bootstrap, docker</p>
+		<p>javascript, node, redux, react, git, rest, sql, postgres, mysql, webpack, es6,
+			stylus, mocha, chai, redis, regex, jade, aws s3, sass, less, css, html,
+			charizard, jquery, php, java, express, seo, flow, markdown, typescript, bootstrap</p>
 		<hr>
 		<p>Please support the following things:</p>
 		<ul>
@@ -88,6 +73,7 @@
 				Children's Hospital</a></li>
 			<li><a target="_blank" href="https://action.aclu.org/donate-aclu?ms=web_horiz_nav_hp">ACLU</a>
 			</li>
+			<li><a target="_blank" href="https://ifundraise.nami.org/index.cfm?fuseaction=donate.event&eventID=503&referrer=WEBDG&utm_source=HomepageButton&utm_medium=website&utm_campaign=DonationTracking">NAMI</a></li>
 			<li>
 				<a target="_blank" href="https://secure.feedingamerica.org/site/Donation2?df_id=15040&15040.donation=form1&s_onsite_promo=MainNav_Donate&s_src=W177ORGSC&s_onsite_promo=MainNav_Donate&s_referrer=google&s_subsrc=http%3A%2F%2Fwww.feedingamerica.org%2F%3Freferrer%3Dhttps%3A%2F%2Fwww.google.com%2F">Feeding
 					America</a>

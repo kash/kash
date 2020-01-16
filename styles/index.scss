@@ -1,0 +1,53 @@
+#app {
+    display: flex;
+    justify-content: center;
+
+    .center {
+        width: 95%;
+        max-width: 500px;
+        margin: 100px 0;
+
+        a, p, li {
+            font: inherit;
+        }
+
+        a {
+            color: #736EFE;
+        }
+
+        a:hover {
+            border-bottom: 2px solid #736EFE;
+        }
+
+        div {
+            font-family: monospace;
+            font-size: 1.1rem;
+        }
+        
+        > div:not(:last-of-type) {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+        }
+
+        p {
+            margin-bottom: 5px;
+        }
+        
+        h2 {
+            font: inherit;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        li:before{
+            content: '- ';
+        }
+        
+        li {
+            text-indent: -6.5em;
+            margin-left: 6.5em;
+            margin-bottom: 5px;
+        }
+    }
+}

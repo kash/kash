@@ -4,7 +4,7 @@
   #app .center {
     width: 95%;
     max-width: 500px;
-    margin: 100px 0; }
+    margin: 100px auto; }
     #app .center a, #app .center p, #app .center li {
       font: inherit; }
     #app .center a {
